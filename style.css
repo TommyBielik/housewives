@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+HU:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width: 800px){
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .emoji {
+        font-size: 1.5rem;
+    }
+
+    body {
+        background-image: url(assets/hearts.jpg);
+        font-family: "PlayWrite HU", serif;
+    }
+    
+    .background {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .btn-container {
+        margin-top: 1rem;
+    }
+
+    .btn {
+        height: 2.5rem;
+        width: 5rem;
+        font-family: "PlayWrite HU";
+        font-weight: bold;
+        border-radius: 10px;
+        background-color: pink;
+    }
+
+    #message {
+        color: red;
+        font-weight: bold;
+    }
+}
